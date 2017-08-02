@@ -2,7 +2,7 @@
 # about: 
 # version: 1.0
 # author: Matthieu Lamarque
-
+require algoliasearch-rails
 
 after_initialize do
   config = YAML::load_file('plugins/algoliasearch-discourse/config/settings.yml')["algolia"]
